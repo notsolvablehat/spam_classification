@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open("spam.pkl",'rb'))
-cv = pickle.load(open("vec.pkl",'rb'))
+model = pickle.load(open("naive-bayes-classifier.pkl",'rb'))
+cv = pickle.load(open("vectorizer.pkl",'rb'))
 
 def main():
     st.title("Email Spam Classification")
