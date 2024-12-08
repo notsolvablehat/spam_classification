@@ -6,7 +6,7 @@ cv = pickle.load(open("vectorizer.pkl",'rb'))
 
 def main():
     st.title("Email Spam Classification")
-    st.write("This is a machine learinig algorithm to classify emails as spam or not spam")
+    st.write("This is a machine learinig algorithm to classify emails as spam or not spam.")
     st.subheader("Classfication")
     user_input = st.text_area("Enter email to classify", height=150)
     if st.button("Classify"):
